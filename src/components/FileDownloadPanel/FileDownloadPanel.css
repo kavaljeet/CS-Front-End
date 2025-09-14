@@ -1,0 +1,108 @@
+.row {
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.row:hover {
+  background-color: #f5f5f5;
+}
+
+.cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.col-1 {
+  flex: 1
+}
+
+.col-2 {
+  flex: 2
+}
+
+.col-3 {
+  flex: 3
+}
+
+.col-4 {
+  flex: 4
+}
+
+.col-01 {
+  flex: 0.1
+}
+
+.col-05 {
+  flex: 0.5
+}
+
+.container {
+  padding: 5px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #d4d4d4;
+  border-bottom-color: transparent; 
+}
+
+.list .title {
+  line-height: 36px;
+  font-size: 22px;
+}
+
+.list .header {
+  display: flex;
+  border-bottom: 1px solid #d4d4d4;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.selected {
+  background-color: #eeeeee;
+}
+
+.available {
+  width: 15px;
+  height: 15px;
+  background-color: #86CE3C;
+  border-radius: 50%;
+}
+
+.sentence-case {
+  text-transform: lowercase;
+}
+
+.sentence-case::first-letter {
+  text-transform: uppercase;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+label {
+  cursor: pointer;
+}
+
+.btn-download {
+  width: 40px;
+  height: 40px;
+  padding-right: 50px;
+  background-image: url("../../assets/download-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 45px;
+  border:0px;
+  color: #3d3d3d;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 22px;
+}
